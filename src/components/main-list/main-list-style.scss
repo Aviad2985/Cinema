@@ -1,0 +1,138 @@
+    .app-container{
+            .search-btn{
+                background-color: black;
+                color: red;
+                border-radius: 50%;
+                width: 9vw;
+                position: absolute;
+                left: 43vw;
+                margin-top: 1vh;
+            }&:hover{
+                cursor: pointer;
+            }
+            .mainList-section{
+                background: black;
+                display: flex;
+                overflow: auto;
+                width:80vw;
+                height: 43vh;
+                position: absolute;
+                top:10vh;
+                left:10vw;
+                .empty-filter{
+                        background-color: black;
+                        color: white;
+                        height:100%;
+                        width:80vw;
+                }
+                .mainList-container{
+                    display: flex;
+                    align-items: center;
+                    div{
+                        text-overflow: ellipsis;
+                        overflow: hidden;
+                        font-size: 1.75vh;
+                        font-weight: 900;
+                        color: white;
+                    }
+                    .item-container-frame{
+                        background-color: black;
+                        height:100%;
+                        width:15vw;
+                        .top-title{
+                            height:5vh;
+                            width:90%;
+                            display: flex;
+                            flex-direction: column;
+                            white-space: nowrap;
+                        }
+                        .mainListItem-title{
+                            .mainListItem-rating-time{
+                                height: 2vh;
+                                display: flex;
+                                width: 90%;
+                                    span{
+                                        margin-left: 1vw;
+                                    }
+                                    img{
+                                        height:2vh;
+                                        width: auto;
+                                    }
+                            }
+                        }
+                    .mainListItem-container{
+                        height: 75%;
+                        width: 90%;
+                        background-position: center;
+                        background-repeat: no-repeat;
+                        background-size: auto;
+                        display: flex;
+                        margin: 0 auto;
+                        
+                    }
+                }
+            }
+        }
+        .reset-btn{
+            background-color: black;
+            color: red;
+            border-radius: 50%;
+            width: 12vw;
+            position: absolute;
+            left: 43vw;
+            margin-top: 1vh;
+            font-size: 3.5vh;
+            padding: 3px;
+        }&:hover{
+            cursor: pointer;
+        }
+    }
+.filter-modal{
+    .modal-content{
+        background-color: black;
+        color: lightblue;
+        height: 70vh;
+        .modal-header{
+            height: 6vh;
+            div{
+                font-size: 2.5vh;
+            }
+            .close{
+                margin: -2rem -1rem -1rem auto !important;
+            }
+        }
+        .modal-footer{
+            .btn{
+                line-height: 1px;
+                height:4vh;
+                font-size: 1.5vh;
+            }
+        }
+    }
+
+}
+
+.movie-modal{
+    .modal-content{
+        color: lightblue;
+        height: 80vh;
+        .modal-header{
+            height: 6vh;
+            background-color: black;
+            div{
+                font-size: 2.5vh;
+            }
+            .close{
+                margin: -2rem -1rem -1rem auto !important;
+            }
+        }
+        .modal-footer{
+            .btn{
+                line-height: 1px;
+                height:4vh;
+                font-size: 1.5vh;
+            }
+        }
+    }
+
+}

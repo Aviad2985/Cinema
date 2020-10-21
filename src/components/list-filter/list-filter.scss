@@ -1,0 +1,39 @@
+.filter-container{
+    display: flex;
+    flex-direction: column;
+    font-size: 2vh;
+    height: 100%;
+    justify-content: space-around;
+    .slider-filter-container{
+        select{
+            margin: 0 2vw;
+        }
+    }
+    .freeText-container{
+        display: flex;
+        input{
+            width: 24vw;
+            height: 3.5vh;
+            margin-left: 2vw;
+        }
+    }
+}
+.selected-item-container{
+    
+    .mainListItem-rating-time{
+        span{
+            margin-left: 1vw;
+        }
+        .mainListItem-star{
+            img{
+                height:3vh
+            }
+        }
+    }
+    .large-img{
+        margin-right: 1vw;
+        img{
+            height: 60vh;
+        }
+    }
+}
